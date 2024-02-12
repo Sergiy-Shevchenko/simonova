@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Lora } from "next/font/google"
+
 
 
 import css from './Header.module.css'
