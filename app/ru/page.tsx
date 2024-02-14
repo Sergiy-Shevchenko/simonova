@@ -1,4 +1,4 @@
-import { HeroRu } from "@/components/HeroRu/HeroRu"
+import { HeroRu } from "@/components/RU/HeroRu/HeroRu"
 import { Metadata } from "next"
 
 export const metadata: Metadata = {

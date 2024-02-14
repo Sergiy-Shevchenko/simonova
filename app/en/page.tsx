@@ -1,4 +1,4 @@
-import { HeroEn } from "@/components/HeroEn/HeroEn"
+import { HeroEn } from "@/components/EN/HeroEn/HeroEn"
 import { Metadata } from "next"
 
 

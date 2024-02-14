@@ -1,5 +1,6 @@
 .section {
-background-color: #1f1204e0;
+background-color: var(--background-start-rgb);
+
 }
 
 .container {
@@ -7,12 +8,14 @@ background-color: #1f1204e0;
     width: 100%;
     max-width: 1400px;
     justify-content: flex-end;
-    margin-left: auto;
-    margin-right: auto;
+    position: absolute;
+    /* margin-left: auto;
+    margin-right: auto; */
+    z-index: 2;
 }
 
 .link {
-    color:#ffcc00;
+    color: var(--color-header-text);
     margin: 10px 5px;
 }
 .link:last-child {

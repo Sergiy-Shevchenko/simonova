@@ -1,8 +1,13 @@
 
-import { Hero } from '@/components/Hero/Hero'
+import { Hero } from '@/components/UA/Hero/Hero'
+import { Servise } from '@/components/UA/Servise/Servise'
 
 export default function Home() {
   return (
-    <Hero/>
+    <>
+     <Hero/>
+    <Servise/>
+    </>
+   
      )
 }
