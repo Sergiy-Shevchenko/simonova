@@ -1,3 +1,5 @@
+import Image from 'next/image';
+import svg from "../../../public/feather.svg"
 import styles from '../../Styles/Servise.module.css'
 
 
@@ -21,8 +23,16 @@ const Servise = ({ }) => {
         <ul className={styles.list}>
       {servises.map(({ id, name }) => (
         <li className={styles.item} key={id}>
-          {/* <Icon className={css.icon__quill} id="icon-quill" /> */}
-          <p className={styles.text}>{name}</p>
+         
+       <Image className={styles.img}         
+       src={svg} 
+       alt='feather'        
+       width={36}
+       height={36}
+       priority/>
+         
+      
+         <p className={styles.text}>{name}</p>
         </li>
       ))}
     </ul>

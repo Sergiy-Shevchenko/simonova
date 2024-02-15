@@ -1,6 +1,6 @@
-.section {
+/* .section {
    
-}
+} */
 
 .container {
     display: block;
@@ -24,7 +24,8 @@
       justify-content: center;
     }
   }
-  
+   
+
   .item {
     display: block;
     min-height: 115px;
@@ -54,6 +55,19 @@
     }
   }
   
+.img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding: 3px;
+    color:#f7ba06;
+    fill: #f7ba06;
+    border-radius: 50%;
+    outline: 3px double #f7ba06;
+  }
+
+
   .item:hover {
     background-color: #484747d0;
     border: 4px double #dcdcdc;
@@ -63,9 +77,22 @@
     color: #dcdcdc;
   }
   
-  .item:hover .icon__quill {
-    fill: #f7ba06;
-    border: 2px solid #f7ba06;
+  .item:hover .img {
+    /* width: 46px;
+    height: 46px; */
+    fill: #dcdcdc;
+    stroke: #dcdcdc;
+    color: #dcdcdc;
+    padding: 3px;
+    border-radius: 50%;
+    outline: 3px double #dcdcdc;
+    /* filter: invert(30%); */
+    /* filter: contrast(20%); */
+    /* filter: hue-rotate(30deg)  brightness(400%);
+    filter: hue-rotate(353deg) saturate(42) brightness(70) */
+    filter: invert(10%) sepia(100%) saturate(0%) hue-rotate(83deg) brightness(110%) contrast(101%);
+    /* filter: brightness(0.35); */
+    /* border: 1px solid #dcdcdc; */
   }
   
   .icon__quill {

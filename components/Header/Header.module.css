@@ -8,10 +8,10 @@ background-color: var(--background-start-rgb);
     width: 100%;
     max-width: 1400px;
     justify-content: flex-end;
-    position: absolute;
+    /* position: absolute; */
     /* margin-left: auto;
     margin-right: auto; */
-    z-index: 2;
+    /* z-index: 2; */
 }
 
 .link {
