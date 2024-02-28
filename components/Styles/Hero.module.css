@@ -5,17 +5,26 @@
 }
 
 .container {
-    display: block;
+    display: flex;
     width: 100%;
     max-width: 1400px;
+    justify-content: space-around;
     margin: 0 auto;
 }
 
+
+.logo {
+    display: block;
+    margin-left: 100px;
+    width: 90px;
+    height: 137px;
+}
 .title {
     display: block;
-    width: calc(100% / 2);
+    width: 100%;
     margin: 0 auto;
     padding: 15px 0;
+    margin-left: 40px;
   }
 
 .city,

@@ -1,0 +1,45 @@
+.section {
+    display: block;
+    margin: auto 0;
+}
+
+
+
+.contact {
+    display: flex;
+}
+
+.contact :first-child {
+    margin-bottom: 15px;
+}
+
+
+
+.contact__item { 
+   display: flex;
+    margin: auto 0 ;
+}
+
+.contact__icon {
+    margin: auto 0;
+    margin-right: 15px;
+    margin-left: 5px;
+    width: 24px;
+    height: 24px;
+}
+
+.contact__text {
+text-align: center; 
+font-size: 18px;
+color: #ffffff;
+}
+
+.contact:hover .contact__text,
+.contact:hover .contact__icon {
+    color: #f7ba06;
+}
+
+.contact:hover .contact__icon {
+    
+    filter: invert(35%) sepia(65%) saturate(2786%) hue-rotate(10deg) brightness(108%) contrast(108%);
+}

@@ -1,18 +1,21 @@
-import Link from "next/link"
+"use client";
+import { usePathname } from "next/navigation";
+import Link from "next/link";
 
+import styles from "../Styles/Header.module.css";
 
-
-import css from './Header.module.css'
 const Header = () => {
-    return (
-        <header className={css.section}>
-            <div className={css.container}>
-            <Link className={css.link} href="/">UA</Link>
-            <Link  className={css.link} href="/ru">RU</Link>
-            <Link  className={css.link} href="/en">EN</Link>
-            </div>           
-        </header>
-    )
-}
+  const pathname = usePathname();
+  console.log(pathname);
+  return (
+    <header className={styles.section}>
+      <div className={styles.container}>
+        <Link href="/" className={pathname === "/" ? styles.active : ''}>UA</Link>
+        <Link href="/ru" className={pathname === "/ru" ? styles.active : ''}>RU</Link>
+        <Link href="/en" className={pathname === "/en" ? styles.active : ''}>EN</Link>
+      </div>
+    </header>
+  );
+};
 
-export {Header}
+export { Header };
