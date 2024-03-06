@@ -1,109 +1,133 @@
 .container {
-    width: calc(100% - 120px);
-    max-width: 1400px;
-    background-color: #363636c5;
-    border-radius: 10px;
-    border: 4px double #dcdcdc;
-    border: 4px double #f7ba06;
-    margin: 50px auto;
-    padding: 20px 0 ;
+  background-color: #363636c5;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3), 0px 4px 4px rgba(0, 0, 0, 0.4),
+    1px 4px 6px rgba(0, 0, 0, 0.4);
+  transition-duration: 250ms;
+  margin: 50px auto;
+  padding: 20px 20px;
+}
+
+.container:hover {
+  transition-duration: 250ms;
+  background-color: #36363696;
+}
+
+.container:hover .title,
+.container:hover .text {
+  transition-duration: 250ms;
+  color: #dcdcdc;
+}
+
+.container:hover .icon__watch,
+.container:hover .icon__time {
+  transition-duration: 250ms;
+  fill: #f7ba06;
+}
+
+.container:hover .text:nth-child(2),
+.container:hover .text:nth-child(2) {
+  @media screen and (min-width: 1200px) {
+    transition-duration: 250ms;
+    border-left: 5px solid #fff;
   }
-  
-  .container:hover {
-    border: 4px double #f7ba06;
-    border: 4px double #dcdcdc;
-    background-color: #36363696;
+}
+
+.container:hover .icon__time {
+  transition-duration: 250ms;
+  stroke: #fff;
+  fill: none;
+}
+
+.container:hover .icon__calendar {
+  transition-duration: 250ms;
+  stroke: #fff;
+  fill: rgb(255, 255, 255);
+  fill: rgb(43, 255, 0);
+}
+
+.container:hover .icon__calendar__touch {
+  transition-duration: 250ms;
+  stroke: #fff;
+  fill: rgb(250, 0, 0);
+  fill: rgba(82, 82, 78, 0.564)
+}
+
+.schedule__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  font-family: "Playfair Display", serif;
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: #f7ba06;
+  text-align: center;
+  margin-left: 15px;
+}
+
+.icon__calendar {
+  width: 36px;
+  height: 36px;
+  margin-right: 10px;
+  fill: #f7d306;
+  align-items: center;
+}
+
+.icon__calendar__touch {
+  fill: #056df5;
+}
+.schedule {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 20px;
   }
-  
-  .container:hover .title,
-  .container:hover .text {
-    color: #dcdcdc;
-  }
-  
-  .container:hover .icon__watch,
-  .container:hover .icon__time {
-    fill: #f7ba06;
-  }
-  
-  .container:hover .text:nth-child(2),
-  .container:hover .text:nth-child(2) {
-    @media screen and (min-width: 1200px) {
-      border-left: 5px solid #fff;
-    }
-  }
-  
-  .title {
-    font-family: 'Playfair Display', serif;
-    font-size: 32px;
-    font-weight: 700;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    color: #dcdcdc;
-color: #f7ba06;
-    text-align: center;
-    margin: 0;
-    padding-top: 15px;
-  }
-  
-  .icon__calendar {
-    width: 36px;
-    height: 36px;
-    margin-right: 10px;
-    fill: #dcdcdc;
-    align-items: center;
-  }
-  
-  .schedule {
-    margin-top: 15px;
+}
+.sectson {
+  text-align: justify;
+  @media screen and (min-width: 1200px) {
     display: flex;
-    justify-content: center;
-    @media screen and (min-width: 1200px) {
-      margin-bottom: 20px;
-    }
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
   }
-  .sectson {
-    text-align: justify;
-    @media screen and (min-width: 1200px) {
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-      gap: 20px;
-    }
+}
+
+.text {
+  font-family: "Playfair Display", serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #f7ba06;
+  @media screen and (min-width: 768px) {
+    font-size: 18px;
   }
-  
-  .text {
-    font-family: 'Playfair Display', serif;
-    font-size: 16px;
-    font-weight: 700;
-    color: #dcdcdc;
-    color: #f7ba06;
-    @media screen and (min-width: 768px) {
-      font-size: 18px;
-    }
-    @media screen and (min-width: 1200px) {
-      font-size: 24px;
-    }
+  @media screen and (min-width: 1200px) {
+    font-size: 24px;
   }
-  
-  .text:nth-child(2) {
-    border: none;
-    @media screen and (min-width: 1200px) {
-      margin-left: 5px;
-      margin-right: 5px;
-      padding-left: 20px;
-      padding-right: 20px;
-      border-left: 5px solid #f7ba06;
-    }
+}
+
+.text:nth-child(2) {
+  border: none;
+  @media screen and (min-width: 1200px) {
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-left: 5px solid #f7ba06;
   }
-  
-  .icon__time {
-    width: 48px;
-    display: block;
-    /* height: 64px; */
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-right: 20px;
-    fill: #dcdcdc;
-    stroke: #dcdcdc;
-  }
+}
+
+.icon__time {
+  width: 36px;
+  height: 64px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 20px;
+  fill: none;
+  stroke: #f7ba06;
+}

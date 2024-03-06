@@ -1,3 +1,4 @@
+import { Advertisement } from "@/components/UA/Advertisement/Advertisement";
 import { Hero } from "@/components/UA/Hero/Hero";
 import { Map } from "@/components/UA/Map/Map";
 import { Schedule } from "@/components/UA/Schedule/Schedule";
@@ -8,6 +9,7 @@ export default function Home() {
     <>
       <Hero />
       <Servise />
+      <Advertisement/>
       <Map/>
       <Schedule/>
 

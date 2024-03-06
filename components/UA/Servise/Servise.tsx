@@ -24,22 +24,20 @@ const Servise = ({ }) => {
       {servises.map(({ id, name }) => (
         <li className={styles.item} key={id}>
          
-       <Image className={styles.img}         
+       {/* <Image className={styles.img}         
        src={svg} 
        alt='feather'        
        width={36}
        height={36}
-       priority/>
+       priority/> */}
          
       
          <p className={styles.text}>{name}</p>
         </li>
       ))}
     </ul>
-    <p className={styles.text_notary}>Консультую та вчиняю всі види нотаріальних дій, відповідно до Закону
-        України “Про нотаріат”</p>
-      </div>
-        </section>
+    </div>
+    </section>
     )
 }
 

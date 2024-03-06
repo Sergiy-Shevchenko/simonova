@@ -6,7 +6,7 @@ import styles from "../Styles/Header.module.css";
 
 const Header = () => {
   const pathname = usePathname();
-  console.log(pathname);
+  // console.log(pathname);
   return (
     <header className={styles.section}>
       <div className={styles.container}>

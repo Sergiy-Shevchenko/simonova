@@ -2,16 +2,18 @@ import Image from 'next/image'
 import logo from '../../../public/tryzub.svg'
 import styles from '../../Styles/Hero.module.css'
 import { Contacts } from '@/components/Contacts/Contacts'
+import EmblemIcon from '@/components/Icons/Emblem'
 
 const Hero = () => {
     return (
         <section className={styles.section}>
         <div className={styles.container}>
-          <Image className={styles.logo}
+          <EmblemIcon/>
+          {/* <Image className={styles.logo}
           src={logo}
           alt='truzub'
           priority
-          />        
+          />         */}
         <div className={styles.hhbgihb}>
           <div className={styles.title}>
             <h3 className={styles.city}>КИЇВСЬКИЙ МІСЬКИЙ НОТАРІАЛЬНИЙ ОКРУГ</h3>
