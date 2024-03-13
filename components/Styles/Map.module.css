@@ -3,24 +3,30 @@
     max-width: 1200px;
     margin:0 auto;
     justify-content: center;
-    align-items: center;
-    /* box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3), 0px 4px 4px rgba(0, 0, 0, 0.4),
-      1px 4px 6px rgba(0, 0, 0, 0.4); */
+    align-items: center;    
 }
 
 
 .container {
   display: flex;
     justify-content: center;
+    align-items: center;
     margin-bottom: 30px;
 }
 
 .title {
-  font-size: 32px;
+  font-size: 20px;
   color: #f7ba06;
   margin-left: 15px;
   text-align: center;
   align-items: center;
+
+  @media screen and (min-width: 768px) {
+    font-size: 24px;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 32px;
+  }
 }
 
 .map__icon {
@@ -30,11 +36,20 @@
 }
 
 .map {
-    width: 100%;
+  display: block;
+  width: calc(100% - 20px);
+  margin: 0 auto;
     border-radius: 8px;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3), 0px 4px 4px rgba(0, 0, 0, 0.4),
       1px 4px 6px rgba(0, 0, 0, 0.4);
-}
+      @media screen and (min-width: 768px) {
+        width: calc(100% - 40px);            
+      }
+      @media screen and (min-width: 1200px) {
+        width: 100%;           
+      }
+
+    }
 
 .section:hover .title,
 .section:hover .map__icon {

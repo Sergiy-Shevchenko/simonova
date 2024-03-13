@@ -7,7 +7,7 @@ import styles from "../Styles/Contacts.module.css";
 const Contacts = () => {
   return (
     <section className={styles.section}>
-      <div>
+      <div className={styles.container}>
         <div className={styles.contact}>
           <Link className={styles.contact__item} href="tel:+380960051155">
             <ContactPhoneIcon />

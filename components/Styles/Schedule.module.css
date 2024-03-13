@@ -59,7 +59,7 @@
 }
 .title {
   font-family: "Playfair Display", serif;
-  font-size: 32px;
+  font-size: 20px;
   font-weight: 700;
   text-align: center;
   justify-content: center;
@@ -67,6 +67,13 @@
   color: #f7ba06;
   text-align: center;
   margin-left: 15px;
+
+  @media screen and (min-width: 768px) {
+    font-size: 24px;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 32px;
+  }
 }
 
 .icon__calendar {
@@ -84,13 +91,21 @@
   margin-top: 15px;
   display: flex;
   justify-content: center;
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 768px) {
+    margin-top: 0;
     margin-bottom: 20px;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-top: 15px;
   }
 }
 .sectson {
+  display: block;
   text-align: justify;
-  @media screen and (min-width: 1200px) {
+  align-items: center;
+  margin: auto 0;
+
+  @media screen and (min-width: 768px) {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -113,11 +128,13 @@
 
 .text:nth-child(2) {
   border: none;
-  @media screen and (min-width: 1200px) {
+  margin-top: 10px;
+  @media screen and (min-width: 768px) {
     margin-left: 5px;
     margin-right: 5px;
     padding-left: 20px;
     padding-right: 20px;
+    margin-top: 0;
     border-left: 5px solid #f7ba06;
   }
 }
@@ -127,7 +144,10 @@
   height: 64px;
   margin-top: auto;
   margin-bottom: auto;
-  margin-right: 20px;
+  margin-right: 10px;
   fill: none;
   stroke: #f7ba06;
+  @media screen and (min-width: 1200px) {
+    margin-right: 20px;
+  }
 }
