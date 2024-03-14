@@ -17,7 +17,10 @@
 }
 
 .contact :first-child {
-  margin-bottom: 15px;
+  margin-bottom: 5px;
+  @media screen and (min-width: 768px) {
+   margin-bottom: 15px;
+  }
 }
 
 .contact__item {
