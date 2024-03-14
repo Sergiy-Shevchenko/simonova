@@ -43,19 +43,38 @@
 .certificate,
 .job,
 .name {
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 500;
     text-align: center;
     color: var(--color-header-text);
+    @media screen and (min-width: 768px) {
+        font-size: 12px;
+   }
 }
 
 .job {
-    font-size: 36px;
+    font-size: 24px;
     font-weight: 700;
     margin: 5px 0;
+
+    @media screen and (min-width: 768px) {
+        font-size: 28px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        font-size: 36px;
+    }
 }
 
 .name {
-    font-size: 32px;    
+    font-size: 22px;    
     margin: 5px 0;
+
+    @media screen and (min-width: 768px) {
+        font-size: 24px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        font-size: 32px;
+    }
 }
