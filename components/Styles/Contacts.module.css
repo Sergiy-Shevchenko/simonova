@@ -9,7 +9,9 @@
   align-items: center;
   gap: 20px;
  @media screen and (min-width: 768px) {
-      display: block; }
+      display: block; 
+justify-content: space-around;
+    }
 }
 
 .contact {
@@ -40,6 +42,11 @@
   @media screen and (min-width: 768px) {
     margin:  auto 0;
     margin-right: 15px;
+    /* margin-left: 5px; */
+  }
+  @media screen and (min-width: 1200px) {
+    margin:  auto 0;
+    margin-right: 15px;
     margin-left: 5px;
   }
 }
@@ -47,12 +54,14 @@
 
 .contact__text {
   text-align: center;
- 
   font-size: 14px;
   color: #ffffff;
   margin: auto 0;
 
   @media screen and (min-width: 768px) {
+    font-size: 16px;   
+  }
+  @media screen and (min-width: 1200px) {
     font-size: 18px;   
   }
 }
