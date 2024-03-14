@@ -17,6 +17,7 @@
 
 
 .container {
+  width: auto;
     display: flex;
     width: calc(100% - 50px);
       justify-content: center;
@@ -31,28 +32,36 @@
   }
   
   .title {
-    font-size: 20px;
+    display: inline;
+     font-size: 20px;
     color: #f7ba06;
     margin-left: 5px;
     text-align: center;
     align-items: center;
 
     @media screen and (min-width: 768px) {
+      width: max-content;
       font-size: 24px;
       
     }
     @media screen and (min-width: 1200px) {
-      font-size: 36px;
+      font-size: 32px;
       margin-left: 15px;
     }
     
   }
 
   .map__icon {
-    width: 36px;
-    height: 36px;
+    width: 50px;
+    height: 42px;
     fill: #f7cb06;
     stroke: #f7ba06;
+    @media screen and (min-width: 768px) {
+      width: 36px;
+    height: 36px;
+      
+    }
+
 }
 
 .map {
