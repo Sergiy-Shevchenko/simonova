@@ -11,12 +11,12 @@
     @media screen and (min-width: 768px) {
         display: flex;
         justify-content: space-between;
+        justify-content: space-around;
       }
       @media screen and (min-width: 1200px) {
-      
-        justify-content: center;
+       
+      justify-content: space-around;
       }
-    
 }
 
 
@@ -33,7 +33,7 @@
           margin-bottom: -70px;  */
           
           margin-top: -80px;
-          margin-left: -20px;
+          margin-left: -40px;
           margin-right: 0;
           margin-bottom: -70px;    
       }   
@@ -59,7 +59,7 @@
     }
 
     @media screen and (min-width: 1200px) {
-        margin-left: 40px;
+        margin-left: 25px;
         padding: 15px 0;
    }
   }
