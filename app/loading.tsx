@@ -1,4 +1,4 @@
-import styles from '../components/Styles/Loader.module.css'
+import styles from '@/components/Styles/Loader.module.css'
 
 export default function LoadingPage() {
     return (  

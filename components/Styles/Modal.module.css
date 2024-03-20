@@ -8,6 +8,7 @@
   
     opacity: 1;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    backdrop-filter: blur(1px);
     z-index: 7;
   }
   
@@ -27,7 +28,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #ebebeb;
+    background-color: rgba(237, 237, 237, 0.998);
     border-radius: 15px;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
       0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -42,7 +43,7 @@
     margin-left: auto;
     margin-right: auto;
     fill: #32c682;
-    stroke: rgb(46, 236, 28);
+    stroke: rgb(21, 255, 0);
   }
   
   .modal_title {
@@ -81,7 +82,7 @@
     width: 26px;
     height: 26px;
     margin-right: 5px;
-    fill: rgb(46, 236, 28);
+    fill: rgb(21, 255, 0);
   }
 
   .modal_icon_schedule {
@@ -106,13 +107,13 @@
     margin:  20px  auto ;
     font-size: 16px;
     font-weight: 500;
-    border: 3px solid #e7e3e3da;
+    border: 3px solid rgba(232, 222, 222, 0.648);
     border-radius: 50px;
     background: #ebeef1;
     align-items: center;
     cursor: pointer;
     box-shadow: 7px 7px 15px rgba(10, 99, 169, 0.4),
-      -7px -7px 15px rgba(255, 255, 255, 0.9);
+      -7px -7px 15px rgba(225, 205, 225, 0.9);
   
     animation-duration: 360ms;
   
@@ -127,11 +128,11 @@
   
   .button:hover ,
   .button:focus {
-      fill: rgb(255, 51, 0);
-      color: rgb(255, 51, 0);
+      /* fill: rgb(255, 51, 0);
+      color: rgb(255, 51, 0); */
       box-shadow: 
-      7px 7px 15px rgba(10, 99, 169, 0.4),
-      -7px -7px 15px rgba(255, 255, 255, 0.9),
+      7px 7px 15px rgba(36, 45, 51, 0.2),
+      -7px -7px 15px rgba(255, 225, 255, 0.3),
   
   
       inset 5px 5px 5px -1px rgba(10, 99, 169, 0.7),
