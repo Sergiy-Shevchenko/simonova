@@ -28,7 +28,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: #ebebeb;
-    border-radius: 25px;
+    border-radius: 15px;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
       0px 2px 1px rgba(0, 0, 0, 0.2);
   
@@ -45,12 +45,13 @@
     stroke: rgb(46, 236, 28);
   }
   
-  .modal__title {
+  .modal_title {
     display: block;
-    font-size: 28px;
-    font-weight: 500;
+    font-size: 18px;
+    font-weight: 700;
     text-align: center;
     color: rgb(72, 75, 72);
+  
   }
   .modal__content {
     display: flex;
@@ -60,13 +61,15 @@
     margin-top: 15px;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 15px;
     border-top: 1px solid rgba(158, 161, 158, 0.527);
   }
   .modal__icon {
     width: 26px;
     height: 26px;
     margin-right: 5px;
-    margin-top: 12px;
+   
+    fill: rgb(46, 236, 28);
   }
   .modal__text {
     font-size: 18px;
@@ -76,14 +79,14 @@
   }
   
   .button {
-    display: block;
+    display: flex;
     width: 150px;
     height: 44px;;
     padding: 4px;
-    margin:  10px  auto ;
+    margin:  20px  auto ;
     font-size: 16px;
     font-weight: 500;
-    border: 5px solid #e7e3e3da;
+    border: 3px solid #e7e3e3da;
     border-radius: 50px;
     background: #ebeef1;
     align-items: center;
@@ -96,13 +99,13 @@
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   
-    fill: #32c682;
-    stroke: #32c682;
-    color: #32c682;
+    fill: rgb(46, 236, 28);
+    stroke:rgb(46, 236, 28);
+    color: rgb(46, 236, 28);
     
   }
   
-  .button:hover,
+  .button:hover ,
   .button:focus {
       fill: rgb(255, 51, 0);
       color: rgb(255, 51, 0);
@@ -126,6 +129,7 @@
   }
   
   .button__text {
+    font-size: 20px;
     font-weight: 700;
     margin: auto;
   }
@@ -134,9 +138,8 @@
   .svg {
     display: block;
     justify-content: center;
-    margin: 15px auto;
+    margin: 20px auto;
     align-items: center;
-
     fill: rgb(46, 236, 28)
 
   }
