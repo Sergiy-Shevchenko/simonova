@@ -10,7 +10,7 @@ import { Servise } from "@/components/UA/Servise/Servise";
 import { Notify } from "@/components/UA/Notify/Nitify";
 import { Modal } from "@/components/Modal/Modal";
 import { useState } from "react";
-import { ModalTitle } from "@/components/UA/ModalComponent/ModalTitle";
+import { ModalContent} from "@/components/UA/ModalComponent/ModalContent";
 
 export default function Home() {
   const [showModal, setShowModal] = useState(true);
@@ -22,7 +22,7 @@ export default function Home() {
           setShowModal(false);
         }}
       >
-        <ModalTitle />
+        <ModalContent />
       </Modal>
       <Hero />
       <Servise />

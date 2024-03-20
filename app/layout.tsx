@@ -17,11 +17,6 @@ export const metadata: Metadata = {
   description: "нотаріус сімонова вікторія валеріївна",
 };
 
-// export const metadata = {
-//   title: "НОТАРІУС Сімонова Вікторія",
-//   description: "нотаріус сімонова вікторія валеріївна",
-// };
-
 
 export default function RootLayout({
   children,
@@ -33,7 +28,6 @@ export default function RootLayout({
       <body className={lora.className}>
         <Header />
         <main>{children}</main>
-        <ToastContainer limit={1}/>
       </body>
     </html>
   );

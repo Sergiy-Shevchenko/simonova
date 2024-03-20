@@ -64,18 +64,38 @@
     padding-top: 15px;
     border-top: 1px solid rgba(158, 161, 158, 0.527);
   }
+
+  .modal__content_schedule {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+    
+  }
+
   .modal__icon {
     width: 26px;
     height: 26px;
     margin-right: 5px;
-   
     fill: rgb(46, 236, 28);
   }
-  .modal__text {
-    font-size: 18px;
+
+  .modal_icon_schedule {
+    width: 40px;
+    height: 40px;
+  
+    fill: rgb(46, 236, 28);}
+
+  .modal_title_schedule {
+    font-size: 28px;
     font-weight: 500;
     color: rgb(72, 75, 72);
     margin-bottom: 8px;
+    margin-right: 10px;
   }
   
   .button {
