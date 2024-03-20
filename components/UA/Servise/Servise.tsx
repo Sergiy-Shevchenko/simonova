@@ -1,5 +1,5 @@
 import FeatherIcon from "@/components/Icons/FeatherIcon";
-import styles from "../../Styles/Servise.module.css";
+import styles from "@/components/Styles/Servise.module.css";
 
 const servises = [
   { id: "1", name: "Оформлення договорів" },

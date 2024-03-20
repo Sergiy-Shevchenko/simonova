@@ -2,12 +2,11 @@
 
 import { Advertisement } from "@/components/UA/Advertisement/Advertisement";
 import { Hero } from "@/components/UA/Hero/Hero";
-import { Linck } from "@/components/UA/Linck/Linck";
+import { Linck } from "@/components/Linck/Linck";
 import { Location } from "@/components/UA/Location/Location";
 import { Map } from "@/components/UA/Map/Map";
 import { Schedule } from "@/components/UA/Schedule/Schedule";
 import { Servise } from "@/components/UA/Servise/Servise";
-import { Notify } from "@/components/UA/Notify/Nitify";
 import { Modal } from "@/components/Modal/Modal";
 import { useState } from "react";
 import { ModalContent} from "@/components/UA/ModalComponent/ModalContent";
@@ -31,7 +30,6 @@ export default function Home() {
       <Map />
       <Schedule />
       <Linck />
-      <Notify />
-    </>
+      </>
   );
 }

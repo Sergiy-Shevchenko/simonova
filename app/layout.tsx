@@ -1,16 +1,10 @@
-
-
 import { Header } from "@/components/Header/Header";
 import "./globals.css";
 import type { Metadata } from "next";
-import { ToastContainer } from "react-toastify";
-import 'react-toastify/dist/ReactToastify.css';
 
 import { Lora} from "next/font/google";
 
-
 const lora = Lora({ subsets: ["latin"] });
-
 
 export const metadata: Metadata = {
   title: "НОТАРІУС Сімонова Вікторія",

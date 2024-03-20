@@ -1,19 +1,19 @@
 import Link from "next/link";
 import Image from "next/image";
 
-import Phone from "../../../public/phone-icon.png";
-import Viber from "../../../public/viber-icon.png";
-import Telegram from "../../../public/telegram-icon.png";
-import Email from "../../../public/mail-icon.png";
-import Whatsapp from "../../../public/whatsapp-icon.png";
+import Phone from "@/public/phone-icon.png";
+import Viber from "@/public/viber-icon.png";
+import Telegram from "@/public/telegram-icon.png";
+import Email from "@/public/mail-icon.png";
+import Whatsapp from "@/public/whatsapp-icon.png";
 
-import PhoneSvg from '../../../public/phone-call.svg';
-import ViberSvg from '../../../public/viber-svg.svg';
-import TelegramSvg from '../../../public/telegram-svg.svg';
-import WhatsappSvg from '../../../public/whatsapp-svg.svg';
-import EmailSvg from '../../../public/email-svg.svg'
+import PhoneSvg from '@/public/phone-call.svg';
+import ViberSvg from '@/public/viber-svg.svg';
+import TelegramSvg from '@/public/telegram-svg.svg';
+import WhatsappSvg from '@/public/whatsapp-svg.svg';
+import EmailSvg from '@/public/email-svg.svg'
 
-import styles from "../../Styles/Linck.module.css";
+import styles from "@/components/Styles/Linck.module.css";
 
 const Linck = ({}) => {
   return (

@@ -1,9 +1,5 @@
-// 'use client'
-
 import styles from "@/components/Styles/Modal.module.css";
 import Succses from '@/public/succses.svg'
-import Check from '@/public/check-icon.svg'
-import { ModalButtonTitle } from "../UA/ModalComponent/ModalButtonTitle";
 
 const Modal = ({ isVisible, onClose, children }) => {
   
@@ -19,7 +15,7 @@ const Modal = ({ isVisible, onClose, children }) => {
           className={styles.button}
           onClick={() => onClose()}
         >
-         <p className={styles.button__text}>OK</p>
+         <p className={styles.button__text}>Ok</p>
         </button>
         
         </div>

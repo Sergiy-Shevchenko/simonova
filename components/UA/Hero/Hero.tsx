@@ -1,6 +1,6 @@
-import styles from "../../Styles/Hero.module.css";
+import styles from "@/components/Styles/Hero.module.css";
 import { Contacts } from "@/components/Contacts/Contacts";
-import Logo from "../../../public/logo.svg.png.svg";
+import Logo from "@/public/logo.svg";
 
 const Hero = () => {
   return (
