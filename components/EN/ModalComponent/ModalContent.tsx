@@ -12,7 +12,7 @@ const ModalContent = ({}) => {
 
       <div className={styles.modal__content}>
         <MetroIcon className={styles.modal__icon} />
-        <p className={styles.modal_title}>Goloseevskaya, `MIR` hotel</p>
+        <p className={styles.modal_title}>Golosiivska, `MIR` hotel</p>
       </div>
     </div>
   );
