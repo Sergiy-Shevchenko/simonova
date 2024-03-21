@@ -10,7 +10,7 @@ const Location = () => {
       <div className={styles.container}>
         <LocationPointIcon />
         <h3 className={styles.title}>
-        Golosiivskyi Avenue, 70, `MIR` Hotel, <MetroIcon className={styles.metro_icon}/> Goloseevskaya
+        Golosiivskyi Avenue, 70, `MIR` Hotel, <MetroIcon className={styles.metro_icon}/> Golosiivska
         </h3>
       </div>
       <Image src={Picture} alt="office_1" className={styles.map} />
