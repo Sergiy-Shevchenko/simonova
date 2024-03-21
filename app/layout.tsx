@@ -7,7 +7,7 @@ import { Lora} from "next/font/google";
 const lora = Lora({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "НОТАРІУС Сімонова Вікторія",
+  title: "ВАШ НОТАРІУС",
   description: "нотаріус сімонова вікторія валеріївна",
 };
 

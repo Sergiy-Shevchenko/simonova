@@ -14,8 +14,8 @@ const Schedule = () => {
         <div className={styles.schedule}>
           <ClockIcon />
           <span className={styles.sectson}>
-            <p className={styles.text}>Md-Fr - 10:00 - 19:00</p>
-            <p className={styles.text}>Sa-Su - By prior agreement</p>
+            <p className={styles.text}>Mom-Fri - 10:00 - 19:00</p>
+            <p className={styles.text}>Sat-Sun - By prior agreement</p>
           </span>
         </div>
       </div>
