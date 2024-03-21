@@ -2,7 +2,7 @@ import { Header } from "@/components/Header/Header";
 import "./globals.css";
 import type { Metadata } from "next";
 
-import { Lora} from "next/font/google";
+import {Lora} from "next/font/google";
 
 const lora = Lora({ subsets: ["latin"] });
 
